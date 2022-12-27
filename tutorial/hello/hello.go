@@ -17,7 +17,7 @@ func main() {
     // Get a greeting message and print it.
     var message string
     var err error
-    message, err = greetings.Hello("")
+    message, err = greetings.Hello("Santa")
     // If an error was returned, print it to the console and
     // exit the program.
     if err != nil {
