@@ -49,6 +49,7 @@ func hourglassSum(arr [][]int32) int32 {
     var max maxint32
     max.isSet = false
     nrow := len(arr)/2 + 1
+    // https://stackoverflow.com/questions/13449773/go-range-and-len-of-multidimensional-array
     
     for i := 0; i < nrow ; i++ { // 4 = 6/2 + 1
         for j := 0; j < nrow; j++ {
